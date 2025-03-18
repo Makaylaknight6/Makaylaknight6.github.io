@@ -17,7 +17,7 @@ $(function () {
     }
 
     // Create walls - do not delete or modify this code
-    createPlatform(150, -50, -50, -50 
+    createPlatform(150, -50, -50, -50) 
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "navy"); // bottom wall
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
